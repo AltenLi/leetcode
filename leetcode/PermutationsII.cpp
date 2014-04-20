@@ -48,7 +48,7 @@ public:
         string str = "";
         for(int i = 0; i < v.size(); ++i)
         {
-            str += to_string(v[i]);
+            str += to_string(long long(v[i]));
         }
         if (s.find(str)!=s.end())
         {

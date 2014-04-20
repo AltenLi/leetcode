@@ -47,5 +47,8 @@
     <ClCompile Include="WordLadderII.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="ConstructBinaryTreefromInorderandPostorderTraversal.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

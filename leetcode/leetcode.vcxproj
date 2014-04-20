@@ -82,6 +82,7 @@
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="ConstructBinaryTreefromInorderandPostorderTraversal.cpp" />
     <ClCompile Include="convert-sorted-list-to-binary-search-tree.cpp" />
     <ClCompile Include="leetcode.cpp" />
     <ClCompile Include="maximalRectangle.cpp" />

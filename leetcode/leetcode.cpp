@@ -5,35 +5,30 @@
 #include <iostream>
 #include <set>
 #include <vector>
-#include "WordLadderII.cpp"
+#include "ConstructBinaryTreefromInorderandPostorderTraversal.cpp"
 
 using namespace std;
 
 
-int* ttt(char* a,char* b)
-{
-	int *tt=new int(1);
-	cout<<a;
-	return tt;
-}
-
-char* seee()
-{
-	char t[]="gelloooo";
-	t[5]=0x0;
-	return t;
-}
-
 int _tmain(int argc, _TCHAR* argv[])
 {
-	vector<vector<int>> result;
-	vector<int> inx;
+	vector<int> inorder,postorder;
+	
+	inorder.push_back(4);
+	inorder.push_back(2);
+	inorder.push_back(1);
+	inorder.push_back(6);
+	inorder.push_back(3);
+	inorder.push_back(7);
+	postorder.push_back(4);
+	postorder.push_back(2);
+	postorder.push_back(6);
+	postorder.push_back(7);
+	postorder.push_back(3);
+	postorder.push_back(1);
+	
 	Solution pu;
-	inx.push_back(1);
-	inx.push_back(2);
-	inx.push_back(1);
-	inx.push_back(2);
-	result=pu.permuteUnique(inx);
+	TreeNode* result=pu.buildTree(inorder,postorder);
 
 
 	//Solution::maximalRectangle();
