@@ -87,6 +87,7 @@
     <ClCompile Include="leetcode.cpp" />
     <ClCompile Include="maximalRectangle.cpp" />
     <ClCompile Include="PermutationsII.cpp" />
+    <ClCompile Include="populating-next-right-pointers-in-each-node.cpp" />
     <ClCompile Include="ReverseLinkedListII.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
