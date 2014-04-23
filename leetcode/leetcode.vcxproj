@@ -82,8 +82,11 @@
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="balanced-binary-tree.cpp" />
+    <ClCompile Include="binary-tree-postorder-traversal.cpp" />
     <ClCompile Include="ConstructBinaryTreefromInorderandPostorderTraversal.cpp" />
     <ClCompile Include="convert-sorted-list-to-binary-search-tree.cpp" />
+    <ClCompile Include="gas-station.cpp" />
     <ClCompile Include="leetcode.cpp" />
     <ClCompile Include="maximalRectangle.cpp" />
     <ClCompile Include="PermutationsII.cpp" />
@@ -93,6 +96,7 @@
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
     </ClCompile>
+    <ClCompile Include="valid-parentheses.cpp" />
     <ClCompile Include="WordLadderII.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

@@ -53,5 +53,17 @@
     <ClCompile Include="populating-next-right-pointers-in-each-node.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="binary-tree-postorder-traversal.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="balanced-binary-tree.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="gas-station.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="valid-parentheses.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
