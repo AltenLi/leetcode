@@ -29,10 +29,10 @@
     <ClCompile Include="stdafx.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="pascals-triangle.cpp">
+    <ClCompile Include="leetcode.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="leetcode.cpp">
+    <ClCompile Include="lru-cache.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

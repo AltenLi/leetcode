@@ -83,7 +83,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="leetcode.cpp" />
-    <ClCompile Include="pascals-triangle.cpp" />
+    <ClCompile Include="lru-cache.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
