@@ -29,40 +29,10 @@
     <ClCompile Include="stdafx.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="pascals-triangle.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
     <ClCompile Include="leetcode.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="maximalRectangle.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="convert-sorted-list-to-binary-search-tree.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="PermutationsII.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="ReverseLinkedListII.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="WordLadderII.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="ConstructBinaryTreefromInorderandPostorderTraversal.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="populating-next-right-pointers-in-each-node.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="binary-tree-postorder-traversal.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="balanced-binary-tree.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="gas-station.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="valid-parentheses.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
