@@ -5,16 +5,17 @@
 #include <iostream>
 #include <set>
 #include <vector>
-#include "pascals-triangle.cpp"
+#include "longest-valid-parentheses.cpp"
 
 using namespace std;
 
 
 int _tmain(int argc, _TCHAR* argv[])
 {
-	vector<vector<int> > res;
+	//vector<vector<int> > res;
 	Solution pu;
-	res=pu.generate(2);
+	int res=pu.longestValidParentheses("()(())");
+
 	//cout<<result<<endl;
 	//cout<<int('(')<<endl<<int(')')<<endl<<int('[')<<endl<<int(']')<<endl<<int('{')<<endl<<int('}')<<endl;
 	//Solution::maximalRectangle();
