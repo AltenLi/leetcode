@@ -5,18 +5,25 @@
 #include <iostream>
 #include <set>
 #include <vector>
-#include "longest-valid-parentheses.cpp"
+#include "triangle.cpp"
 
 using namespace std;
 
 
 int _tmain(int argc, _TCHAR* argv[])
 {
-	//vector<vector<int> > res;
+	vector<vector<int> > res;
+	vector<int> t;
+	t.push_back(1);
+	res.push_back(t);
+	t.clear();
+	t.push_back(2);
+	t.push_back(3);
+	res.push_back(t);
 	Solution pu;
-	int res=pu.longestValidParentheses("()(())");
+	int result=pu.minimumTotal(res);
 
-	//cout<<result<<endl;
+	cout<<result<<endl;
 	//cout<<int('(')<<endl<<int(')')<<endl<<int('[')<<endl<<int(']')<<endl<<int('{')<<endl<<int('}')<<endl;
 	//Solution::maximalRectangle();
 	system("pause");

@@ -32,10 +32,7 @@
     <ClCompile Include="leetcode.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="lru-cache.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="longest-valid-parentheses.cpp">
+    <ClCompile Include="precode.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
