@@ -5,23 +5,16 @@
 #include <iostream>
 #include <set>
 #include <vector>
-#include "triangle.cpp"
+#include "permutation-sequence.cpp"
 
 using namespace std;
 
 
 int _tmain(int argc, _TCHAR* argv[])
 {
-	vector<vector<int> > res;
-	vector<int> t;
-	t.push_back(1);
-	res.push_back(t);
-	t.clear();
-	t.push_back(2);
-	t.push_back(3);
-	res.push_back(t);
+	
 	Solution pu;
-	int result=pu.minimumTotal(res);
+	string result=pu.getPermutation(8,8590);
 
 	cout<<result<<endl;
 	//cout<<int('(')<<endl<<int(')')<<endl<<int('[')<<endl<<int(']')<<endl<<int('{')<<endl<<int('}')<<endl;

@@ -35,5 +35,8 @@
     <ClCompile Include="precode.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="permutation-sequence.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
