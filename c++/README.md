@@ -1,3 +1,0 @@
-leetcode
-========
-Leetcode in C++
